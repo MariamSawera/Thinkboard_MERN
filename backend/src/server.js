@@ -18,7 +18,7 @@ app.use("/api/notes", notesRoutes); //instead of writting api/notes in all route
 
 
 app.use((req, res, next) =>{
-  console.log(`the req method is ${req.method} and Req URL is ${req.url}` )
+  console.log(`the req method is ${req.method} and Req URL is ${req.url}` );
   next();
 })
 
