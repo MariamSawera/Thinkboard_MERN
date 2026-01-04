@@ -1,0 +1,9 @@
+# Node dependencies
+/node_modules/
+
+# Backend environment file
+/backend/.env
+
+# Frontend environment file (if using React or similar)
+/frontend/.env
+
