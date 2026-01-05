@@ -55,6 +55,7 @@ const handleSave = async() =>{
   try{
     await api.put(`/notes/${id}`, note)
     toast.success("Note Updated successfully!")
+    navigate("/")
 
   }catch(error) {
     console.error("Error Saving the note" ,error);
