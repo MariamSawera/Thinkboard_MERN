@@ -1,0 +1,13 @@
+{
+  "name": "mern-note-app",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000T\u0000h\u0000i\u0000n\u0000k\u0000b\u0000o\u0000a\u0000r\u0000d\u0000-\u0000M\u0000E\u0000R\u0000N\u0000-\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
+    "start": "npm run start --prefix backend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
