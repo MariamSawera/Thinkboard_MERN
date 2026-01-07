@@ -22,7 +22,7 @@ if(process.env.NODE_ENV !== "production") {
 }
 
 app.use(express.json()) //need this for reading body 
-app.use(rateLimiter);
+app.use("/api/notes",rateLimiter);
 app.use("/api/notes", notesRoutes); //instead of writting api/notes in all routes we using app.use ....by importing
   
 
